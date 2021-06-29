@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+
+.container {
+    margin: auto;
+    width: 65%;
+    padding: 140px 0;
+    display: flex;
+}
+
+.box {
+    padding:20px;
+    height: auto;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%); 
+    text-transform: uppercase;
+    padding: 0 25px;
+}
+
+p {
+    font-size: 15px;
+    line-height: 2em;
+    padding: 55px 25px;
+    width: 85%;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+img {
+    padding: 50px 25px;
+}
+
+button {
+    border-radius: 25px;
+    border: solid 1px rgba(255, 0, 0, 0);
+    padding: 15px 35px;
+    margin: 35px 0 25px 35px;
+    background-color: hsl(0, 0%, 95%); 
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+button:hover {
+    border: solid 1px hsla(0, 0%, 100%, 0.75);
+    background-color: transparent; 
+}
+
+.button1 {
+    color: hsl(31, 77%, 52%);;
+}
+
+.button1:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.button2 {
+    color: hsl(184, 100%, 22%);;
+}
+
+.button2:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.button3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.button3:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.box1 {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.box2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.box3 {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.attribution {
+    padding: 40px;
+}
+
+
+@media screen and (max-width:1096px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .box1 {
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .box3 {
+        border-top-right-radius:0px ;
+        border-bottom-left-radius: 15px;
+    }
+}
