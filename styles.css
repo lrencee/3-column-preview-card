@@ -47,12 +47,13 @@ button {
     margin: 35px 0 25px 35px;
     background-color: hsl(0, 0%, 95%); 
     cursor: pointer;
-    transition: .3s ease-in-out;
+    
 }
 
 button:hover {
     border: solid 1px hsla(0, 0%, 100%, 0.75);
     background-color: transparent; 
+    transition: .3s ease-in-out;
 }
 
 .button1 {
